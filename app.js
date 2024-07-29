@@ -4,10 +4,14 @@ const app = express();
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'bookapp'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'bookapp'
+    host:'sql.freedb.tech',
+    user:'freedb_JingYi',
+    password:'!3bEa8G78GxRZTG',
+    database:'freedb_23016303'
 });
 
 connection.connect((err) => {
